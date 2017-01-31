@@ -1,0 +1,697 @@
+Last login: Mon Jan 23 18:15:31 on ttys000
+sme ~$pwd
+/Users/sme
+sme ~$ls
+Applications/ Downloads/    Music/        exercism/     ’
+Desktop/      Library/      Pictures/     moved/        ”
+Documents/    Movies/       Public/       test/
+sme ~$ls
+Applications/ Desktop/      Documents/    Downloads/    Library/      Movies/       Music/        Pictures/     Public/       exercism/     moved/        test/
+sme ~$rmdir test
+rmdir: test: Directory not empty
+sme ~$rm test
+rm: test: is a directory
+sme ~$cd test
+sme test$ls
+help.txt
+sme test$rm help.txt
+sme test$ls
+sme test$cd ..
+sme ~$rmdir test
+sme ~$ls
+Applications/ Desktop/      Documents/    Downloads/    Library/      Movies/       Music/        Pictures/     Public/       exercism/     moved/
+sme ~$man ls
+sme ~$cd Turing
+-bash: cd: Turing: No such file or directory
+sme ~$pwd
+/Users/sme
+sme ~$ls
+Applications/ Desktop/      Documents/    Downloads/    Library/      Movies/       Music/        Pictures/     Public/       exercism/     moved/
+sme ~$cd Documents/Turing
+sme Turing$ls
+Books/    HTML_CSS/ Lessons/  Notes/
+sme Turing$cd ..
+sme Documents$ls
+Fonts/              Images/             Knox/               Midnight ramblings/ Practice Websites/  Swordapps.txt       Turing/             Unemployment/
+sme Documents$cd Practice Websites
+-bash: cd: Practice: No such file or directory
+sme Documents$ls
+Fonts/              Images/             Knox/               Midnight ramblings/ Practice Websites/  Swordapps.txt       Turing/             Unemployment/
+sme Documents$cd Practice_Websites
+-bash: cd: Practice_Websites: No such file or directory
+sme Documents$cd Practice Websites
+-bash: cd: Practice: No such file or directory
+sme Documents$cd PracticeWebsites
+-bash: cd: PracticeWebsites: No such file or directory
+sme Documents$cd Turing
+sme Turing$cd ..
+sme Documents$cd Practice Websites
+-bash: cd: Practice: No such file or directory
+sme Documents$ls
+Fonts/             Images/            Knox/              Swordapps.txt      Turing/            Unemployment/      midnightRamblings/ practiceWebsites/
+sme Documents$cd practiceWebsites
+sme practiceWebsites$ls
+grid960SystemMaster/ haikuBuilder/        htmlCSSTechniques/   kittyPictures/       learningJavaScript/  zenGarden/
+sme practiceWebsites$cd haikuBuilder
+sme haikuBuilder$ls
+haikuBuilder.html  haikuBuilder.js
+sme haikuBuilder$atom haikuBuilder.html haikuBuilder.js
+sme haikuBuilder$cd ../..
+sme Documents$cd Turing
+sme Turing$ls
+Books/    HTML_CSS/ Lessons/  Notes/
+sme Turing$cd Lessons
+sme Lessons$ls
+html/           notes_0123.txt
+sme Lessons$cd html
+sme html$mdkir dog-party
+-bash: mdkir: command not found
+sme html$mkdir dog-party
+sme html$cd dog-party
+sme dog-party$mkdir images
+sme dog-party$ls
+images/
+sme dog-party$cd ..
+sme html$ls
+dog-party/  html1.html
+sme html$cd dog-party
+sme dog-party$ls
+images/
+sme dog-party$index.html
+-bash: index.html: command not found
+sme dog-party$touch index.html
+sme dog-party$ls
+images/     index.html
+sme dog-party$atom index.html
+sme dog-party$ls
+images/     index.html
+sme dog-party$cd images
+sme images$ls
+sme images$ls
+sme images$
+sme images$
+sme images$pwd
+/Users/sme/Documents/Turing/Lessons/html/dog-party/images
+sme images$ls -la
+total 0
+drwxr-xr-x  2 sme  staff    68B Jan 24 11:55 ./
+drwxr-xr-x  4 sme  staff   136B Jan 24 11:56 ../
+sme images$cd ../../../..
+sme Turing$ls
+Books/    HTML_CSS/ Lessons/  Notes/
+sme Turing$cd HTLM_CSS
+-bash: cd: HTLM_CSS: No such file or directory
+sme Turing$ls
+Books/            htmlCss/          practiceWebsites/
+sme Turing$cd htmlCss
+sme htmlCss$ls
+1_firstTest.html    dogParty/           flagTable0124.html/
+sme htmlCss$ls
+1_firstTest.html    dogParty/           flagTable0124.html/
+sme htmlCss$cd dogParty/perroFiesta
+sme perroFiesta$touch perroFiesta.html perroFiesta.css
+sme perroFiesta$atom perroFiesta.html perroFiesta.css
+sme perroFiesta$cd ..
+sme dogParty$ls
+dogParty/    perroFiesta/
+sme dogParty$atom dogParty.html
+sme dogParty$ls
+dogParty/    perroFiesta/
+sme dogParty$cd dogParty
+sme dogParty$ls
+dogParty.css   dogParty.html  images/
+sme dogParty$atom dogParty.html
+sme dogParty$cd ..
+sme dogParty$ls
+dogParty/    perroFiesta/
+sme dogParty$cd perroFiesta
+sme perroFiesta$open perroFiesta.html
+sme perroFiesta$cd ..
+sme dogParty$ls
+dogParty/    perroFiesta/
+sme dogParty$cd dogParty
+sme dogParty$ls
+dogParty.css   dogParty.html  images/
+sme dogParty$open dogParty.html
+sme dogParty$cd ../..
+sme htmlCss$cd ..
+sme Turing$mkdir projects
+sme Turing$cd projects
+sme projects$mkdir mod1 cd mod1
+mkdir: mod1: File exists
+sme projects$ls
+cd/   mod1/
+sme projects$rmdir cd
+sme projects$ls
+mod1/
+sme projects$cd mod1
+sme mod1$mkdir numberGuesser
+sme mod1$touch numberGuesser.html numberGuesser.css numberGuesser.js
+sme mod1$atom numberGuesser.html numberGuesser.css
+sme mod1$cd ../...
+-bash: cd: ../...: No such file or directory
+sme mod1$cd ../..
+sme Turing$sl
+-bash: sl: command not found
+sme Turing$ls
+Books/            htmlCss/          practiceWebsites/ projects/
+sme Turing$cd htmlCss
+sme htmlCss$ls
+1_firstTest.html    dogParty/           flagTable0124.html/
+sme htmlCss$cd dogParty
+sme dogParty$ls
+dogParty/    perroFiesta/
+sme dogParty$cd dogParty
+sme dogParty$open dogParty.html
+sme dogParty$atom dogParty.html
+sme dogParty$cd ../..
+sme htmlCss$ls
+1_firstTest.html    dogParty/           flagTable0124.html/
+sme htmlCss$cd dogParty/dogParty
+sme dogParty$ls
+dogParty.css   dogParty.html  images/
+sme dogParty$cd //
+sme //$ls
+Applications/              System/                    bin/                       etc@                       net/                       tmp@
+Library/                   Users/                     cores/                     home/                      private/                   usr/
+Network/                   Volumes/                   dev/                       installer.failurerequests  sbin/                      var@
+sme //$cd Users/sme
+sme sme$cd Documents/Turing
+sme Turing$cd projects
+sme projects$open numberGuesser.html
+The file /Users/sme/Documents/Turing/projects/numberGuesser.html does not exist.
+sme projects$ls
+mod1/
+sme projects$atom mod1/numberGuesser.html
+sme projects$open mod1/numberGuesser.html
+sme projects$ls
+mod1/
+sme projects$cd mod1/numberGuesser
+sme numberGuesser$ls
+numberGuesser.css   numberGuesser.html  numberGuesser.js    tests/
+sme numberGuesser$cd tests
+sme tests$ls
+inputBox.html  inputBox.js
+sme tests$open inputBox.html
+sme tests$cd ..
+sme numberGuesser$open numberGuesser.html
+sme numberGuesser$git config --list
+credential.helper=osxkeychain
+user.name=Jennifer Peavler
+user.email=jenn.peavler@gmail.com
+color.ui=true
+sme numberGuesser$git config --global --list
+user.name=Jennifer Peavler
+user.email=jenn.peavler@gmail.com
+color.ui=true
+sme numberGuesser$cd ../..
+sme projects$cd ..
+sme Turing$ls
+Books/            htmlCss/          practiceWebsites/ projects/         strengthsReport/
+sme Turing$mkdir gitLessons
+sme Turing$ls
+Books/            gitLessons/       htmlCss/          practiceWebsites/ projects/         strengthsReport/
+sme Turing$cd gitLessons
+sme gitLessons$mkdir gitInto
+sme gitLessons$git status
+fatal: Not a git repository (or any of the parent directories): .git
+sme gitLessons$ls
+gitInto/
+sme gitLessons$cd gitInto
+sme gitInto$ls
+sme gitInto$git init
+Initialized empty Git repository in /Users/sme/Documents/Turing/gitLessons/gitInto/.git/
+sme gitInto$ls -la
+total 0
+drwxr-xr-x  3 sme  staff   102B Jan 30 10:54 ./
+drwxr-xr-x  3 sme  staff   102B Jan 30 10:53 ../
+drwxr-xr-x  9 sme  staff   306B Jan 30 10:54 .git/
+sme gitInto$touch index.html
+sme gitInto$ls
+index.html
+sme gitInto$git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+sme gitInto$git add index.html
+sme gitInto$git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+
+sme gitInto$git commit
+Aborting commit due to empty commit message.
+sme gitInto$git commit -m "Add index HTML file"
+[master (root-commit) 0d7d4e8] Add index HTML file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+sme gitInto$git log
+commit 0d7d4e8ee24f9ec81326d1d052ca3f4878154f2d
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:09:54 2017 -0700
+
+    Add index HTML file
+sme gitInto$atom index.html
+sme gitInto$open index.html
+sme gitInto$git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sme gitInto$git add index.html
+sme gitInto$git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+sme gitInto$git commit -m "Add basic HTML structure"
+[master a81f74c] Add basic HTML structure
+ 1 file changed, 11 insertions(+)
+sme gitInto$git log
+commit a81f74c161b9d6fde91c3f2a143929d7143e842f
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:24:40 2017 -0700
+
+    Add basic HTML structure
+
+commit 0d7d4e8ee24f9ec81326d1d052ca3f4878154f2d
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:09:54 2017 -0700
+
+    Add index HTML file
+sme gitInto$git status
+On branch master
+nothing to commit, working tree clean
+sme gitInto$git branch addCSS
+sme gitInto$git branch
+  addCSS
+* master
+sme gitInto$git checkout addCSS
+Switched to branch 'addCSS'
+sme gitInto$git branch
+* addCSS
+  master
+sme gitInto$touch styles.css
+sme gitInto$atom styles.css
+sme gitInto$open styles.css
+sme gitInto$open index.html
+sme gitInto$git add .
+sme gitInto$git status
+On branch addCSS
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+	new file:   styles.css
+
+sme gitInto$git commit -m "Add stylesheet and link in HTML"
+[addCSS 8d2265f] Add stylesheet and link in HTML
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 styles.css
+sme gitInto$git branch
+* addCSS
+  master
+sme gitInto$git checkout master
+Switched to branch 'master'
+sme gitInto$git checkout addCSS
+Switched to branch 'addCSS'
+sme gitInto$git checkout master
+Switched to branch 'master'
+sme gitInto$git checkout addCSS
+Switched to branch 'addCSS'
+sme gitInto$git status
+On branch addCSS
+nothing to commit, working tree clean
+sme gitInto$git checkout master
+Switched to branch 'master'
+sme gitInto$git merge addCSS
+Updating a81f74c..8d2265f
+Fast-forward
+ index.html | 3 ++-
+ styles.css | 3 +++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 styles.css
+sme gitInto$git branch
+  addCSS
+* master
+sme gitInto$git log
+commit 8d2265ff4ab75d28000551cfe23c9fdced17c07d
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:54:59 2017 -0700
+
+    Add stylesheet and link in HTML
+
+commit a81f74c161b9d6fde91c3f2a143929d7143e842f
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:24:40 2017 -0700
+
+    Add basic HTML structure
+
+commit 0d7d4e8ee24f9ec81326d1d052ca3f4878154f2d
+Author: Jennifer Peavler <jenn.peavler@gmail.com>
+Date:   Mon Jan 30 11:09:54 2017 -0700
+
+    Add index HTML file
+sme gitInto$git reset --hard a81f74c161b9d6fde91c3f2a143929d7143e842f
+HEAD is now at a81f74c Add basic HTML structure
+sme gitInto$git branch
+  addCSS
+* master
+sme gitInto$git merge addCSS
+Updating a81f74c..8d2265f
+Fast-forward
+ index.html | 3 ++-
+ styles.css | 3 +++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 styles.css
+sme gitInto$cd ../../..
+sme Documents$cd Turing
+sme Turing$ls
+Books/            gitLessons/       htmlCss/          practiceWebsites/ projects/         strengthsReport/
+sme Turing$cd projects
+sme projects$ls
+mod1/
+sme projects$cd mod1
+sme mod1$ls
+numberGuesser/
+sme mod1$git status
+fatal: Not a git repository (or any of the parent directories): .git
+sme mod1$git init
+Initialized empty Git repository in /Users/sme/Documents/Turing/projects/mod1/.git/
+sme mod1$git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	numberGuesser/
+
+nothing added to commit but untracked files present (use "git add" to track)
+sme mod1$cd numberGuesser
+sme numberGuesser$git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+sme numberGuesser$git init
+Initialized empty Git repository in /Users/sme/Documents/Turing/projects/mod1/numberGuesser/.git/
+sme numberGuesser$git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	numberGuesser.css
+	numberGuesser.html
+	numberGuesser.js
+	tests/
+
+nothing added to commit but untracked files present (use "git add" to track)
+sme numberGuesser$git add .
+sme numberGuesser$git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   numberGuesser.css
+	new file:   numberGuesser.html
+	new file:   numberGuesser.js
+	new file:   tests/inputBox.html
+	new file:   tests/inputBox.js
+
+sme numberGuesser$git commit .
+error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+sme numberGuesser$git commit -m "Add HTML, CSS, JS files plus inputBox test files"
+[master (root-commit) bb20ca3] Add HTML, CSS, JS files plus inputBox test files
+ 5 files changed, 274 insertions(+)
+ create mode 100644 numberGuesser.css
+ create mode 100644 numberGuesser.html
+ create mode 100644 numberGuesser.js
+ create mode 100644 tests/inputBox.html
+ create mode 100644 tests/inputBox.js
+sme numberGuesser$ls
+numberGuesser.css   numberGuesser.html  numberGuesser.js    tests/
+sme numberGuesser$ls -la
+total 24
+drwxr-xr-x   7 sme  staff   238B Jan 30 12:21 ./
+drwxr-xr-x   5 sme  staff   170B Jan 30 12:16 ../
+drwxr-xr-x  12 sme  staff   408B Jan 30 12:24 .git/
+-rw-r--r--   1 sme  staff   2.0K Jan 30 11:38 numberGuesser.css
+-rw-r--r--   1 sme  staff   1.0K Jan 27 04:57 numberGuesser.html
+-rw-r--r--   1 sme  staff   2.7K Jan 30 11:37 numberGuesser.js
+drwxr-xr-x   4 sme  staff   136B Jan 26 15:05 tests/
+sme numberGuesser$git branch phaseTwo
+sme numberGuesser$git branch
+* master
+  phaseTwo
+sme numberGuesser$git checkout phaseTwo
+Switched to branch 'phaseTwo'
+sme numberGuesser$git branch
+  master
+* phaseTwo
+sme numberGuesser$atom numberGuesser.css numberGuesser.html numberGuesser.js
+sme numberGuesser$git status
+On branch phaseTwo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   numberGuesser.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sme numberGuesser$git add numberGuesser.js
+sme numberGuesser$git status
+On branch phaseTwo
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   numberGuesser.js
+
+sme numberGuesser$git commit
+error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+sme numberGuesser$git commit -m "Add range values for the user to guess in between"
+[phaseTwo 7f8ebac] Add range values for the user to guess in between
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+sme numberGuesser$git status
+On branch phaseTwo
+nothing to commit, working tree clean
+sme numberGuesser$git checkout master
+Switched to branch 'master'
+sme numberGuesser$git merge phaseTwo
+Updating bb20ca3..7f8ebac
+Fast-forward
+ numberGuesser.js | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+sme numberGuesser$git branch
+* master
+  phaseTwo
+sme numberGuesser$git branch -d phaseTwo
+Deleted branch phaseTwo (was 7f8ebac).
+sme numberGuesser$git branch
+* master
+sme numberGuesser$git branch phaseThree
+sme numberGuesser$git branch
+* master
+  phaseThree
+sme numberGuesser$git checkout phaseThree
+Switched to branch 'phaseThree'
+sme numberGuesser$git branch
+  master
+* phaseThree
+sme numberGuesser$git status
+On branch phaseThree
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   numberGuesser.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sme numberGuesser$ls -al ~/.ssh
+ls: /Users/sme/.ssh: No such file or directory
+sme numberGuesser$ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/sme/.ssh/id_rsa): ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in ssh-keygen -t rsa -b 4096 -C "your_email@example.com".
+Your public key has been saved in ssh-keygen -t rsa -b 4096 -C "your_email@example.com".pub.
+The key fingerprint is:
+SHA256:sIxXF7a0mtARPPg+hxK/ElNno5caCq0Ge+LgiuFskP4 your_email@example.com
+The key's randomart image is:
++---[RSA 4096]----+
+|       oo.+      |
+|      ..o+ +     |
+|      o.o.+      |
+|     o.=o++      |
+| .  ..+=S= o     |
+|o . ..= B +      |
+|=  o o = B       |
+|==o + o o        |
+|==oE   .         |
++----[SHA256]-----+
+sme numberGuesser$ls -al ~/.ssh
+ls: /Users/sme/.ssh: No such file or directory
+sme numberGuesser$ssh-keygen -t rsa -b 4096 -C "jenn.peavler@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/sme/.ssh/id_rsa):
+Created directory '/Users/sme/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/sme/.ssh/id_rsa.
+Your public key has been saved in /Users/sme/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:PziXcTnFGok26coOlpiyr/CzbpnCE/7XSDGmYANIwjg jenn.peavler@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|*.               |
+|E.         o o   |
+|..        = o o  |
+| +   +   o . =   |
+|. o o o S o =    |
+| . . + o + + .   |
+|+ oo+ * = =      |
+|.*=o + + o .     |
+| +O*o   .        |
++----[SHA256]-----+
+sme numberGuesser$eval "$(ssh-agent -s)"
+Agent pid 32698
+sme numberGuesser$cd ~
+sme ~$ssh-add ~/.ssh/id_rsa
+Enter passphrase for /Users/sme/.ssh/id_rsa:
+Identity added: /Users/sme/.ssh/id_rsa (/Users/sme/.ssh/id_rsa)
+sme ~$pbcopy < ~/.ssh/id_rsa.pub
+sme ~$ssh -T git@github.com
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+Hi jennPeavler! You've successfully authenticated, but GitHub does not provide shell access.
+sme ~$ssh-keygen -p
+Enter file in which the key is (/Users/sme/.ssh/id_rsa):
+Enter old passphrase:
+Enter new passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved with the new passphrase.
+sme ~$ls
+Applications/ Desktop/      Documents/    Downloads/    Library/      Movies/       Music/        Pictures/     Public/       exercism/     moved/
+sme ~$cd Documents
+sme Documents$ls
+Fonts/             Images/            Knox/              Swordapps.txt      Turing/            Unemployment/      midnightRamblings/
+sme Documents$cd Turing
+sme Turing$ls
+Books/            gitLessons/       htmlCss/          practiceWebsites/ projects/         strengthsReport/
+sme Turing$mkdir responsiveLessons
+sme Turing$cd responsiveLessons
+sme responsiveLessons$touch lesson1
+sme responsiveLessons$atom lesson1
+sme responsiveLessons$open lesson1
+sme responsiveLessons$ls
+lesson1
+sme responsiveLessons$ren lesson1 lesson1.html
+-bash: ren: command not found
+sme responsiveLessons$mv lesson1 lesson1.html
+sme responsiveLessons$ls
+lesson1.html
+sme responsiveLessons$touch reset.css
+sme responsiveLessons$atom reset.css
+sme responsiveLessons$touch lesson1.css
+sme responsiveLessons$atom lesson1.css
+sme responsiveLessons$cd ../../..
+sme ~$cd Documents
+sme Documents$cd Turing
+sme Turing$ls
+Books/             gitLessons/        htmlCss/           practiceWebsites/  projects/          responsiveLessons/ strengthsReport/
+sme Turing$cd gitLessons
+sme gitLessons$mkdir github-intro
+sme gitLessons$cd github-intro
+sme github-intro$git init
+Initialized empty Git repository in /Users/sme/Documents/Turing/gitLessons/github-intro/.git/
+sme github-intro$git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+sme github-intro$ls -la
+total 0
+drwxr-xr-x  3 sme  staff   102B Jan 31 11:21 ./
+drwxr-xr-x  5 sme  staff   170B Jan 31 11:20 ../
+drwxr-xr-x  9 sme  staff   306B Jan 31 11:21 .git/
+sme github-intro$ls
+sme github-intro$git remote -v
+sme github-intro$git remote add origin git@github.com:jennPeavler/github-intro.git
+sme github-intro$git remote -v
+origin	git@github.com:jennPeavler/github-intro.git (fetch)
+origin	git@github.com:jennPeavler/github-intro.git (push)
+sme github-intro$touch index.html
+sme github-intro$atom index.html
+sme github-intro$git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+sme github-intro$add index.html
+-bash: add: command not found
+sme github-intro$git add index.html
+sme github-intro$git commit -m "add initial index"
+[master (root-commit) 27d4f1e] add initial index
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+sme github-intro$git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 339 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:jennPeavler/github-intro.git
+ * [new branch]      master -> master
+sme github-intro$ls
+index.html
+sme github-intro$touch notes.html
+sme github-intro$atom notes.html
+sme github-intro$
